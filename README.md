@@ -4,7 +4,7 @@ In game player must avoid obstacles.
 Main features:
 - damage points caused by collisions 
 - score system and saving best result
--Automaticly rendering map
+- Automaticly rendering map
 
 PL:
 
