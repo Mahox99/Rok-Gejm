@@ -13,6 +13,7 @@ public class DeathScript : MonoBehaviour
     public GameObject Highscore;
     public GameObject HighscoreCanva;
     public GameObject joystick;
+    public GameObject PauseBtt;
     public bool stoper = true;
     void Start()
     {
@@ -22,6 +23,7 @@ public class DeathScript : MonoBehaviour
         Rocket.SetActive(true);
         Text.SetActive(false);
         joystick.SetActive(true);
+        PauseBtt.SetActive(true);
     }
     void Update()
     {    
@@ -39,6 +41,7 @@ public class DeathScript : MonoBehaviour
             Text.GetComponent<UnityEngine.UI.Text>().text = "You die! \nYour Result: " + Vechiclesystem.TheScore;
             stoper = false;
             joystick.SetActive(false);
+            PauseBtt.SetActive(false);
         }
     }
 }
