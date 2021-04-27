@@ -1,10 +1,9 @@
 # Rok-Gejm
-Unity 2.5 D Android / PC game. 
-In game player must avoid obstacles.
+Unity 2.5 D Android / PC game. In the game player is supposedto avoid obstacles.
 Main features:
 - damage points caused by collisions 
-- score system and saving best result
-- Automaticly rendering map
+- scoring system and autosaving best result
+- Automatically map rendering
 
 PL:
 
